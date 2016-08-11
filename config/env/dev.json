@@ -1,0 +1,11 @@
+{
+  "app": {
+    "port": 9000
+  },
+  "logentries" : {
+    "token" : "d3e08d4d-8faa-4056-a465-0021ccaf4775"
+  },
+  "jwt": {
+    "secret" : "senha super secreta!"
+  }
+}

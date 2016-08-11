@@ -1,0 +1,21 @@
+{
+  "app": {
+    "port": 9000
+  },
+  "mongo": {
+    "host": "localhost",
+    "database": "gestta-test",
+    "database_audit": "gestta-audit-test",
+    "options": {
+      "server": {
+        "auto_reconnect"    : true,
+        "poolSize"          : 10,
+        "reconnectTries"    : 5,
+        "reconnectInterval" : 2000
+      }
+    }
+  },
+  "jwt": {
+    "secret" : "senha super secreta!"
+  }
+}
